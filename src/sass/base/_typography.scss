@@ -1,0 +1,23 @@
+@use '../abstracts/' as *;
+
+* {
+    font-family: $ff-main;
+}
+
+.title {
+    font-size: $size-500;
+    font-weight: $fw-bold;
+    color: $clr-neutral-100;
+}
+
+.description, .rating {
+    color: $clr-neutral-400;
+    font-size: $size-200;
+    font-weight: $fw-regular;
+}
+
+.button {
+    color: $clr-neutral-100;
+    font-size: $size-400;
+    font-weight: $fw-regular;
+}
