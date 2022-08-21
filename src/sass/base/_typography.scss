@@ -10,10 +10,14 @@
     color: $clr-neutral-100;
 }
 
-.description, .rating {
+.description, .rating, .accent {
     color: $clr-neutral-400;
     font-size: $size-200;
     font-weight: $fw-regular;
+}
+
+.accent {
+    color: $clr-primary-500;
 }
 
 .button {
