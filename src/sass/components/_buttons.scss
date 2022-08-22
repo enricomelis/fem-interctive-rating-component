@@ -1,8 +1,12 @@
 @use '../abstracts/' as *;
 
+button {
+    border: none;
+
+}
+
 .button {
     background-color: $clr-primary-500;
-    border: none;
     border-radius: 20px;
     font-size: .75rem;
     padding: .5rem 6rem;
