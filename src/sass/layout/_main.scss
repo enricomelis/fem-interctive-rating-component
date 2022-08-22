@@ -1,0 +1,31 @@
+@use '../abstracts/' as *;
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.flex-feedback {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    gap: .875rem;
+
+    width: 30%;
+    padding: 2rem;
+
+    background-image: linear-gradient(to bottom right, $clr-neutral-800, $clr-neutral-900);
+
+    border-radius: 30px;
+}
+
+.flex-circle {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.star, .title {
+    justify-self: start;
+}

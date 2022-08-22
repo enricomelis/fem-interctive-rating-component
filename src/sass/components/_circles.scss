@@ -1,6 +1,6 @@
 @use '../abstracts/' as *;
 
-.circle {
+.circle, .circle-star {
     border-radius: 50%;
     background-color: $clr-neutral-800;
     color: $clr-neutral-500;
