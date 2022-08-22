@@ -1,1 +1,24 @@
 @use '../abstracts/' as *;
+
+.circle {
+    border-radius: 50%;
+    background-color: $clr-neutral-800;
+    color: $clr-neutral-500;
+    width: $size-700;
+    height: $size-700;
+    cursor: pointer;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.circle:where(:hover, :focus) {
+    color: $clr-neutral-100;
+    background-color: $clr-primary-500;
+}
+
+.flex-circle {
+    display: flex;
+    justify-content: space-between;
+}
