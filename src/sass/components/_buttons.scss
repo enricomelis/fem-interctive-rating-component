@@ -1,0 +1,16 @@
+@use '../abstracts/' as *;
+
+.button {
+    background-color: $clr-primary-500;
+    border: none;
+    border-radius: 20px;
+    font-size: .5rem;
+    padding: .5rem 6rem;
+
+    cursor: pointer;
+}
+
+.button:where(:hover, :focus) {
+    background-color: $clr-neutral-100;
+    color: $clr-primary-500;
+}
