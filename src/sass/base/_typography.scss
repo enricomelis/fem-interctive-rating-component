@@ -5,21 +5,15 @@
 }
 
 .title {
-    font-size: $size-500;
-    font-weight: $fw-bold;
-    color: $clr-neutral-100;
+    @include neutral-bold;
 }
 
 .description, .rating, .accent {
-    color: $clr-neutral-400;
-    font-size: $size-200;
-    font-weight: $fw-regular;
+    @include neutral-regular;
 }
 
 .accent {
-    color: $clr-primary-500;
-    font-size: $size-200;
-    font-weight: $fw-regular;
+    @include primary-regular;
 }
 
 .button {

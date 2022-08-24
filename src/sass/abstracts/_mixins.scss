@@ -1,0 +1,19 @@
+@use './variables' as *;
+
+@mixin neutral-regular {
+    color: $clr-neutral-400;
+    font-size: $size-200;
+    font-weight: $fw-regular;
+}
+
+@mixin primary-regular {
+    color: color-picker(primary-500);
+    font-size: $size-200;
+    font-weight: $fw-regular;
+}
+
+@mixin neutral-bold {
+    color: $clr-neutral-100;
+    font-size: $size-500;
+    font-weight: $fw-bold;
+}

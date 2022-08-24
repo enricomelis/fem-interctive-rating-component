@@ -1,0 +1,6 @@
+@use './variables' as *;
+
+@function color-picker($value){
+    @return map-get($colors, $value);
+}
+
