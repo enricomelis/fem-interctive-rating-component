@@ -41,3 +41,5 @@ rateFour.addEventListener('click', () => {
 rateFive.addEventListener('click', () => {
     circleClickStyle(rateFive)
 })
+
+console.log('5')
